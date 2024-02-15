@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Audi</title>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/car-logo.png" class="logo" alt="">
+            <div class="menu">
+                <a href="index.htm">Home</a>
+                <a href="#">A propos</a>
+                <a href="nouveaute.html">Nouveauté</a>
+                <a href="configuration.html">Configuration</a>
+                <a href="contact.html">Nous contacter</a>
+            </div>
+                <div class="reseaux">
+                    <a href="https://www.facebook.com/audifrance/?locale=fr_FR"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/AudiFrance"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/audifrance/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+        </nav>
+    </header>   
+        <div class="hero">
+        <div class="text">
+            <h4>Prochainement</h4>
+            <h1>Decouvrez votre <br> <span>Audi S1</span></h1>
+            <p>A partir de 37000€.</p>
+            <a href="#" class="btn">Reservez mainteant</a>
+        </div>
+    </div>
+    <script>
+        let heroBg = document.querySelector('.hero');
+
+        setInterval(() => {
+            heroBg.style.backgroundImage = "url(img/1.jpg)"
+            
+            setTimeout(() => {
+                heroBg.style.backgroundImage = "url(img/2.jpg)"
+            }, 1000);
+        }, 2200);
+    </script>
+</body>
+</html>

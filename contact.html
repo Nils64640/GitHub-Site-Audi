@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Nous contacters</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="contact.css">
+<body>
+   <header>
+        <nav>
+            <img src="img/car-logo.png" class="logo" alt="">
+            <div class="menu">
+                <a href="index.htm">Home</a>
+                <a href="#">A propos</a>
+                <a href="nouveaute.html">Nouveauté</a>
+                <a href="configuration.html">Configuration</a>
+                <a href="contact.html">Nous contacter</a>
+            </div>
+            <div class="reseaux">
+                <a href="https://www.facebook.com/audifrance/?locale=fr_FR"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/AudiFrance"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/audifrance/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </nav>
+    </header>
+<section id="contact"> 
+  <h1 class="section-Titre">Nous contacter</h1>  
+  <div class="contact-ajustement">    
+    <form id="contact-form" class="form-horizontal" role="form">       
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="NOM" name="name" value="" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+        </div>
+      </div>
+      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>     
+      <button class="btn btn-primary envoie-button" id="submit" type="submit" value="SEND">
+        <div class="alt-envoie-button">
+          <i class="fa fa-car"></i><span class="envoie-text">Envoyer</span>
+        </div>      
+      </button>      
+    </form>
+       <div class="direct-contact-container">
+        <ul class="contact-list">
+          <li class="list-info"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Bayonne, France</span></i></li>         
+          <li class="list-info"><i class="fa fa-phone fa-2x"><span class="contact-text telephone"><a>05 59 42 59 60</a></span></i></li>         
+          <li class="list-info"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a>car-automobiles.fr</a></span></i></li>         
+        </ul>
+        <hr>
+        <ul class="reseaux-sociaux-list">
+          <li><a href="https://www.facebook.com/audifrance/?locale=fr_FR" target="_blank" class="contact-icon">
+            <i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="car-automobiles.fr" target="_blank" class="contact-icon">
+            <i class="fa fa-google" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="https://twitter.com/AudiFrance" target="_blank" class="contact-icon">
+            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="https://www.instagram.com/audifrance/?hl=fr" target="_blank" class="contact-icon">
+            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>       
+        </ul>
+        <hr>
+        <div class="copyright">&copy; TOUT DROIT RESERVE</div>
+      </div>   
+  </div> 
+</section>
+</body>
+</html>

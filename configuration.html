@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Configuration</title>
+        <link rel="stylesheet" href="configuration.css" />
+        <link rel="stylesheet" href=".css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+         <header>
+        <nav>
+            <img src="img/car-logo.png" class="logo1" alt="">
+            <div class="menuNav">
+                <a href="index.htm">Home</a>
+                <a href="#">A propos</a>
+                <a href="nouveaute.html">Nouveauté</a>
+                <a href="configuration.html">Configuration</a>
+                <a href="contact.html">Nous contacter</a>
+            </div>
+                <div class="reseaux">
+                    <a href="https://www.facebook.com/audifrance/?locale=fr_FR"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/AudiFrance"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/audifrance/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+        </nav>
+    </header>
+            <div class="carousel">
+                <img src="./img/logo1.png" alt="" class="logo" />
+                <div class="carousel-bg-wrapper"></div>
+                <div class="carousel-inner">
+                <div class="carousel-indicators">
+                    <span class="line"></span>
+                    <span class="number"></span>
+                    <span class="number"></span>
+                    <span class="number"></span>
+                    <span class="number"></span>
+                    <span class="number"></span>
+                </div>
+                    <div class="carousel-control">
+                        <button class="prev">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button class="next">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                <div class="content-wrapper"></div>
+                <div class="slide-wrapper">
+                    <div class="slide"></div>
+                </div>
+            </div>
+        </div>
+        <script>
+            let button = document.querySelector('.button');
+            let navbar = document.querySelector('.navbar');
+
+            button.onclick = function() {
+                navbar.classList.toggle('present');
+            }
+        </script>
+        <script src="./configuration.js"></script>
+    </body>
+</html>
